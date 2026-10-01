@@ -26,7 +26,7 @@ and
 
 
 These are taken to a hlsl custom shader to compare the difference of depth of each texel and apply a configurable edge detection algorithm in order to get only outlines **inside** the object to prevent spilling
-same is done with normals texture with the difference of taking normal direction between pixels to determine concave/convex relationships instead of depth. 
+, same is done with normals texture with the difference of taking normal direction between pixels to determine concave/convex relationships instead of depth. 
 
 Both outlines are combined and processed with the object own color (though this is configurable)
 
